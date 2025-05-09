@@ -41,7 +41,7 @@ Config.EnableKick = true          -- طرد اللاعب
 
 ## 🔧 الدعم الفني
 
-
+[SevenM](https://discord.gg/NR6WAdzMYZ)
 
 
 ## 📝 الترخيص
