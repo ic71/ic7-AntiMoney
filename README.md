@@ -1,7 +1,6 @@
-# ic7-AntiMoney
-A script designed to protect the server's economy from cheating and money exploits. The script monitors players' money and takes automatic actions when suspicious amounts are detected.
+# Anti-Money Exploit
 
-
+## 🌟 وصف السكربت
 سكربت مخصص لحماية اقتصاد السيرفر من الغش واستغلال الأموال. يقوم السكربت بمراقبة أموال اللاعبين واتخاذ إجراءات تلقائية عند اكتشاف مبالغ مشبوهة.
 
 ## ⚙️ الميزات الرئيسية
@@ -46,10 +45,9 @@ Config.EnableKick = true          -- طرد اللاعب
 | /setmaxmoney [المبلغ] | تعيين الحد الأقصى للمبلغ المسموح به | مسؤول |
 
 ## 🔧 الدعم الفني
-[SevenM](https://discord.gg/NR6WAdzMYZ)
 
 
 
 
-
-#ic7
+## 📝 الترخيص
+جميع الحقوق محفوظة © 2023 
