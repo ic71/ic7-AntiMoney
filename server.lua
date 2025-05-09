@@ -140,14 +140,3 @@ AddEventHandler('QBCore:Server:OnMoneyChange', function(source, moneyType, amoun
         print("^1[ANTI-MONEY EXPLOIT] ^3تم العثور على مبلغ مشبوه لدى اللاعب: " .. GetPlayerName(src) .. " (" .. src .. ") | المبلغ: " .. totalMoney .. "$^7")
     end
 end)
-
-QBCore.Commands.Add("setmaxmoney", "تعيين الحد الأقصى للمبلغ المسموح به", {{name = "المبلغ", help = "المبلغ الجديد"}}, true, function(source, args)
-    local newMaxMoney = tonumber(args[1])
-    if newMaxMoney and newMaxMoney > 0 then
-        Config.MaxMoney = newMaxMoney
-        TriggerClientEvent('QBCore:Notify', source, "تم تعيين الحد الأقصى للمبلغ إلى: " .. newMaxMoney .. "$", "success")
-        print("^2[ANTI-MONEY EXPLOIT] ^3تم تعيين الحد الأقصى للمبلغ إلى: " .. newMaxMoney .. "$ بواسطة: " .. GetPlayerName(source) .. " (" .. source .. ")^7")
-    else
-        TriggerClientEvent('QBCore:Notify', source, "يرجى إدخال قيمة صحيحة", "error")
-    end
-end, "god") 
