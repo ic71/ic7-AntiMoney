@@ -49,7 +49,7 @@ local function SendToDiscord(playerId, playerName, playerMoney, playerIdentifier
                 }
             },
             ["footer"] = {
-                ["text"] = "Anti-Money Exploit | " .. os.date("%Y-%m-%d %H:%M:%S")
+                ["text"] = "ic7-AntiMoney Exploit | " .. os.date("%Y-%m-%d %H:%M:%S")
             }
         }
     }
